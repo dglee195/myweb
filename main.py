@@ -20,6 +20,7 @@ agree = st.checkbox("동의.")
 if agree:
     st.write("동의합니다!!")
 
+# ctrl+.은 이모지
 st.title("😍Ph.D.")
 st.header("✌Curriculum studies")
 st.subheader("at the University of Virginia")
@@ -55,5 +56,7 @@ st.subheader(f"I'm {기분}.")
 
 전공 = st.text_input("당신의 전공 과목을 입력하세요.")
 
-st.write(f"{전공} 학생이시군요! 대단합니다.")
+st.write(f"**{전공}** 학생이시군요! 대단합니다.")
+
+st.write("수고하셨씁니다")
 
